@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+body {
+  background: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans";
+  background-image: url("../img/bg-pattern-top.svg"),
+    url("../img/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left -47.75rem top -32.875rem,
+    right -46.375rem bottom -40.625rem;
+  overflow: hidden;
+}
+
+main {
+  margin: 7rem 0 0 0;
+  padding: 0 1rem;
+}
+
+.Container-Card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.Pattern-Card {
+  display: block;
+  margin: 0 auto;
+  height: 220px;
+}
+
+.Img-Avatar {
+  margin: -7rem 0 0 6.5rem;
+}
+
+.Avatar {
+  height: 170px;
+  border-radius: 50%;
+  border: 10px solid rgb(255, 255, 255);
+}
+
+.Card-Text {
+  text-align: center;
+}
+
+.Name {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+}
+
+.Years {
+  color: hsl(0, 0%, 59%);
+  font-weight: 500;
+  padding: 0 0.5rem;
+}
+
+.Ciudad {
+  color: hsl(0, 0%, 59%);
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.Resumen-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.Follows-Likes-Photos {
+  display: flex;
+  flex-direction: column;
+}
+
+.Follows-Likes-Photos .title-resumen {
+  color: hsl(229, 23%, 23%);
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.Follows-Likes-Photos .description-resumen {
+  color: hsl(0, 1%, 35%);
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-top: -1.1rem;
+  letter-spacing: 0.1rem;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-position: left -40.75rem top -30.875rem,
+      right -40.375rem bottom -34.625rem;
+  }
+
+  main {
+    padding: 1rem 32rem;
+  }
+
+  .Container-Card {
+    margin-top: -5rem;
+  }
+
+  .Img-Avatar {
+    margin: -7rem 0 0 9rem;
+  }
+}
